@@ -1,0 +1,103 @@
+#app {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	font-family: Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, SimSun, sans-serif;
+	font-weight: 400;
+	-webkit-font-smoothing: antialiased;
+	-webkit-tap-highlight-color: transparent;
+	background-color: #f8f8f8;
+	font-size: 14px;
+	overflow: hidden;
+	position: relative;
+}
+
+// padding相关
+.p-b-10 {
+  padding: 0 0 10px 0;
+}
+.p-b-20 {
+  padding: 0 0 20px 0;
+}
+.p-t-10 {
+  padding: 10px 0 0 0;
+}
+.p-t-20 {
+  padding: 20px 0 0 0;
+}
+.p-t-30 {
+  padding: 20px 0 0 0;
+}
+.p-10 {
+  padding: 10px;
+}
+.p-20 {
+  padding: 20px;
+}
+.p-b-10-20{
+  padding: 20px 20px 10px 20px;
+}
+.p-10-20-10-10 {
+  padding: 10px 20px 10px 10px;
+}
+.p-tb-10 {
+  padding: 10px 0;
+}
+
+// flex相关
+.flex-fs-center{
+  display: flex;
+  // justify-content: center;
+  align-items: center;
+}
+.flex-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flex-center-left{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.flex-sa-cnter{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.flex-d-rr{
+  display: flex;
+  flex-direction: row-reverse
+}
+.flex-col-sb-center{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+.all-backgroud {
+  .ant-btn {
+    text-align: center;
+    width: 100%;
+  }
+}
+// grid相关
+.grid-gp10 {
+  display: grid;
+  gap: 10px;
+}
+
+//小长方形
+.squar {
+  display: inline-block;
+  width: 3px;
+  height: 25px;
+  margin-right: 10px;
+  background-color: rgba(151, 149, 149, 0.8);
+
+}
